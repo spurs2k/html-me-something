@@ -23,6 +23,17 @@ h1 {
 h2 {
     font-size: 20px;
 }
+
+
+
+.storyPhotos {
+    max-width: 50%;
+    height: auto;
+    text-align: right;
+}
+
+
+
 .social {
     width: 5vw;
     height: auto;
