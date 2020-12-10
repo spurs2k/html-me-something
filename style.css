@@ -1,0 +1,55 @@
+.flex-container {
+    display: flex;
+}
+
+
+body {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+
+header {
+    text-align: center;
+    border: 3px solid black;
+    padding: 10px;   
+}
+
+img {
+    border-style: groove;
+    max-width: 50%;
+    height: auto;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+
+
+
+
+.social {
+    width: 5vw;
+    height: auto;
+    padding-top: 3vh;
+    border: none;
+}
+
+.copyright {
+    font-size: 25px;
+    padding-top: 1vh;  
+}
+
+.footer {
+    background-color: aqua;
+    text-align: center;
+    height: 10vw;
+}
