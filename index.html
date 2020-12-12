@@ -1,59 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foo Fighters Tribute Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-   
-<body>
-    <header>
-        <h1>Foo Fighters Tribute Page</h1>
-        <h2>A Brief Collection of My Favorite Foo Fighters Stories, Pictures, and Trivia</h2>
-        <img src="images/Stage level group.jpg" alt="Stage photo during the Wasting Light Tour in 2011" style="max-width: 100%";/>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Foo Fighters Tribute Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
     
-    <main class="flex-container">
-        <article>
-            <div class="flex-container">
-                <p><span style="font-size: 35px" style="font-weight: bold;">This one time, at a Foo Fighters show....</span>
-                    <br>
-                    <br>
-                While in the lobby of the FedEx Forum in Memphis, on the Concrete and Gold Tour, my buddy Jerry couldn't believe his eyes when he thought he saw Dave Grohl. 
-                Turns out it was just some long haired guy trying to sell extra tickets. What would Dave have been doing in the lobby this close to show time anyway?
-                Perhaps there was alcohol to blame for the confusion. That's rock and roll!!!</p>
-                <img src="images/JamesJerry.JPG" alt="James and Jerry take a selfie before a Foo Fighters show in Memphis"/>
+    <body>
+        <header>
+            <h1>Foo Fighters Tribute Page</h1>
+            <h2>A Brief Collection of My Favorite Foo Fighters Stories, Pictures, and Trivia</h2>
+            
+            <div class="slideshow-container">
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/Stage level group.jpg" alt="Stage photo during the Wasting Light Tour, 2011" style="width:100%";>
+                    <div class="numbertext">1 / 5</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/Stage Dark.jpg" alt="Dark stage photo, Wasting Light Tour, 2011" style="width:100%">
+                    <div class="numbertext">2 / 5</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/blue lights.jpg" style="width:100%">
+                    <div class="numbertext">3 / 5</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/eyes.jpg" style="width:100%">
+                    <div class="numbertext">4 / 5</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/group photo.jpg" style="width:100%">
+                    <div class="numbertext">5 / 5</div>
+                </div>
+                
             </div>
-
-            <div class="flex-container">
-                <img src="images/Video Monitors.jpg" alt="Example of the stage"/>
-                <p id = "idk"><span style="font-size: 35px" style="font-weight: bold;">This other time, at a Foo Fighters show....</span>
-                    <br>
-                    <br>
-                I built the stage for the concert! It was bananas!!! Unfortunately I did not get a photo, but it looked like this!!!</p>
-            </div>
-
-
             
-        </article>
-            
-            
-            
-            
-        </main>    
+        </header>
         
-        
-        
-        
-        <footer class="footer">
-                <a href="https://www.linkedin.com/in/jamesspurlin?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJ10UztcsT5KfURkBn1bsww%3D%3D">
-                <img class="social" src="images/linkedin.png" alt="Linkedin">
-                </a>
-                <div class="copyright">&copy 2020 James Spurlin</div>                
-        </footer>
-
-    
-</body>
-
-</html>
+        <main>
+            <article>
+                <div class="flex-container">
+                    <p class="captions"><span style="font-size: 35px" style="font-weight: bold;">This one time, at a Foo Fighters show....</span>
+                        <br>
+                        <br>
+                        While in the lobby of the FedEx Forum in Memphis, on the Concrete and Gold Tour, my buddy Jerry couldn't believe his eyes when he thought he saw Dave Grohl. 
+                        Turns out it was just some long haired guy trying to sell extra tickets. What would Dave have been doing in the lobby this close to show time anyway?
+                        Perhaps there was alcohol to blame for the confusion. That's rock and roll!!!</p>
+                        <img class="story-pic" src="images/JamesJerry.JPG" alt="James and Jerry take a selfie before a Foo Fighters show in Memphis"/>
+                    </div>
+                    
+                    <div class="flex-container">
+                        <img class="story-pic" src="images/Video Monitors.jpg" alt="Example of the stage"/>
+                        <p class="captions"><span style="font-size: 35px" style="font-weight: bold;">This other time, at a Foo Fighters show....</span>
+                            <br>
+                            <br>
+                            I helped build the stage for a concert in Little Rock! It was organized chaos. Completely bananas!!! Unfortunately I did not get a photo, but it looked like this!!! 
+                            The monitors were a triangle with two concave screens and one convex screen. During the concert, they would spin around and tilt while displaying images and video. 
+                            The effect was really cool to see in action!!!</p>
+                        </div>
+                        
+                        <div class="flex-container">
+                            <p class="captions"><span style="font-size: 35px" style="font-weight: bold;">This famous blue guitar....</span>
+                                <br>
+                                <br>
+                                Back before he formed the Foo Fighters, Dave Grohl was in a little band called Nirvana. You might have heard of them. While with Nirvana, Grohl came
+                                across a beautiful 1967 Trini Lopez Signature guitar in a Bethesda, Maryland guitar shop. Dave is on record as saying, 
+                                "This guitar, I've made every single Foo Fighters record with it. On every record I might use other guitars every now and then, but for the most part 
+                                it's just this." While the original guitar was a deep red color, in 2007 Gibson released a Grohl signature model in Pelham Blue which became his favorite 
+                                guitar!</p>
+                                <img class="story-pic" src="images/DaveGuitar.PNG" alt="Dave with his famous Gibson Trini Lopez guitar"/>
+                            </div>
+                            
+                            <div class="flex-container">
+                                <img class="story-pic" src="images/DaveShreds.PNG" alt="Dave shredding his Gibson Trini Lopez guitar"/>
+                                <p class="captions"><span style="font-size: 35px" style="font-weight: bold;">This horrible band name....</span>
+                                    <br>
+                                    <br>
+                                    It is widely known that Dave got the name for his new band from Allied World War II pilots. The term "foo fighter" was used to describe various UFOs or 
+                                    mysterious aerial phenomena seen in the skies over both the European and Pacific theaters of operations. It is suspected that the pilots were overworked, 
+                                    exhausted, and hallucinating. Given the circumstances, that seems reasonable. Nevertheless, we have this incredible band name! Or do we??? In an interview 
+                                    with Anderson Cooper, behind the scenes of the <em>Sonic Highways</em> documentary, Grohl revealed, "Had I imagined that it would last more than a 
+                                    month-and-a-half, I might have named it something else. It’s the dumbest band name ever." Agree to disagree Mr Grohl!!!</p>
+                                </div>
+                                
+                                <div class="flex-container">
+                                    <p class="captions"><span style="font-size: 35px" style="font-weight: bold;">This one drummer....</span>
+                                        <br>
+                                        <br>
+                                        Did you know that Dave recorded nearly all the instruments by himself on the Foo Fighters debut album? When it was time to go on tour, 
+                                        Dave was going to need some help! Enter former Sunny Day Real Estate drummer William Goldsmith. According to Grohl, Goldsmith's drumming had good moments, 
+                                        but for the most part his performances were not to Grohl’s standards, so Dave ended up re-recording all the drum parts himself for the Foo's second studio album. 
+                                        Grohl asked Goldsmith to remain as the band's tour drummer but the damage was done. Goldsmith's replacement came from a very unlikely source. Taylor Hawkins
+                                        was the drummer for Alanis Morissette when he left for the Foo Fighters. Hawkins remains the Foo's drummer to this day! </p>
+                                        <img class="story-pic" src="images/Taylor and Dave.png" alt="Dave sings with Taylor behind him"/>
+                                    </div>
+                                    
+                                </article>
+                                
+                            </main>
+                            
+                        </body>
+                        
+                        <footer class="footer">
+                            <a href="https://www.linkedin.com/in/jamesspurlin?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJ10UztcsT5KfURkBn1bsww%3D%3D">
+                                <img class="social" src="images/linkedin.png" alt="Linkedin">
+                            </a>
+                            <div class="copyright">&copy 2020 James Spurlin</div>                
+                        </footer>
+                        
+                        
+                        </html>
+                        <script src="script.js"></script>    
