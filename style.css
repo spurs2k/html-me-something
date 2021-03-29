@@ -5,6 +5,7 @@ body {
     padding-left: 1%;
     padding-right: 1%;
     background-color: black;
+    color: #77acca;
 }
 
 header {
@@ -12,19 +13,19 @@ header {
     padding-bottom: 5%;
     max-width: 75%;
     margin: auto;
+  
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    .slide {vertical-align: middle;}
 
-
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-.slide {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
+    /* Slideshow container */
+    .slideshow-container {
+        flex: auto;  
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
 
 
 }
@@ -75,4 +76,5 @@ h2 {
     text-align: center;
     height: auto;
     max-width: 100%;
-    }
+    color: black;
+}
